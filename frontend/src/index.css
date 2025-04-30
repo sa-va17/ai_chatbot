@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+html,
+body {
+  margin: 0px;
+  background-color: #0D1F22;
+  padding: 0.1px;
+  color: black;
+  font-family: "Raleway", 'Lucida Sans' !important;
+  font-size: 15px;
+}
+
+.img-inverted {
+  filter: invert(100%);
+}
+
+.navlinks {
+  font-weight: 600;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 8px 20px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+.MuiOutlinedInput-input-root.Mui-focused,
+.MuiOutlinedInput-notchedOutline {
+  border-color: white !important
+}
